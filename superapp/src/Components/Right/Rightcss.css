@@ -1,0 +1,278 @@
+.righth1 {
+    position: absolute;
+    width: 13.831vw;
+    height: 8.4154vh;
+    right: 17.9398vw;
+    top: 6.267vh;
+    font-family: 'Single Day';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.877vw;
+    line-height: 8.415vh;
+    /* identical to box height, or 94px */
+    color: #72DB73;
+}
+
+.righth2 {
+    position: absolute;
+    width: 16.898vw;
+    height: 2.417vh;
+    right: 15.97vw;
+    top: 15.4879vh;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.45vw;
+    line-height: 3.133vh;
+    /* or 35px */
+
+
+    color: #FFFFFF;
+}
+
+.mail {
+    position: absolute;
+    /* width: 74.18px;
+    height: 27.82px; */
+    right: 26.03vw;
+    top: 20.949vh;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.669vw;
+    line-height: 3.581vh;
+    /* or 40px */
+    color: #FFFFFF;
+}
+
+.google {
+    position: absolute;
+    /* width: 74.18px;
+    height: 27.82px; */
+    right: 17.62vw;
+    top: 20.949vh;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.669vw;
+    line-height: 3.581vh;
+    /* or 40px */
+    color: #FFFFFF;
+}
+
+.separator {
+    position: absolute;
+    /* width: 74.18px;
+    height: 27.82px; */
+    right: 24.3vw;
+    top: 21vh;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.669vw;
+    line-height: 3.581vh;
+    /* or 40px */
+    color: #FFFFFF;
+}
+
+.formelements {
+    position: absolute;
+    height: 29.12vh;
+    /* height: 260px; */
+    width: 29.98vw;
+    /* width: 29vw; */
+    right: 9.433vw;
+    top: 29.454vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: #72DB73; */
+}
+
+input {
+    width: 29.98vw;
+    /* height: 19.9416%; */
+    /* height: 20%; */
+    height: 5.81vh;
+    background-color: #292929;
+    border-color: #000000;
+    border-radius: 3.81584px;
+    font-size: 20.0331px;
+    color: white;
+    padding-left: 20px;
+}
+
+input::placeholder {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.0331px;
+    line-height: 28px;
+    /* identical to box height, or 28px */
+    text-justify: center;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+}
+
+#check {
+    /* position: absolute; */
+    width: 18px;
+    height: 18px;
+    /* right: 38.31vw;
+    top: 63.2vh; */
+    background-color: #D9D9D9;
+}
+
+.checkmark {
+    /* position: absolute; */
+    /* width: 433px;
+height: 19px; */
+    /* left: 62.616vw;
+    top: 62.847vh; */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 2.5vh;
+    /* or 28px */
+
+    letter-spacing: 0.02em;
+
+    color: #7C7C7C;
+
+}
+
+.tickmark {
+    height: 20px;
+    /* width: 463px; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: center;
+    position: absolute;
+    left: 60.65vw;
+    top: 63.2vh;
+
+}
+
+.signupbtn {
+    position: absolute;
+    width: 29.977vw;
+    height: 4.924vh;
+    left: 60.59vw;
+    top: 69.65vh;
+    background: #72DB73;
+    border-radius: 1.62vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.678vw;
+    line-height: 2.865vh;
+    /* or 32px*/
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.terms {
+    position: absolute;
+    width: 29.98vw;
+    /* height: 53px;  */
+    left: 60.59vw;
+    top: 75.813vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.042vw;
+    line-height: 2.328vh;
+    /* or 26px */
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+
+}
+
+.terms2 {
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.042vw;
+    line-height: 2.328vh;
+    /* or 26px */
+    letter-spacing: 0.02em;
+    color: #72DB73;
+
+}
+
+.policy {
+    position: absolute;
+    width: 29.98vw;
+    /* height: 53px;  */
+    left: 60.59vw;
+    top: 83.08vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.042vw;
+    line-height: 2.328vh;
+    /* or 26px */
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+
+}
+
+.policy2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.042vw;
+    line-height: 2.328vh;
+    /* or 26px */
+    letter-spacing: 0.02em;
+    color: #72DB73;
+
+}
+
+.errname {
+    position: absolute;
+    top: 34.8vh;
+    left: 60.8vw;
+    font-size: 15px;
+    color: red;
+}
+
+.errusername {
+    position: absolute;
+    top: 42.7vh;
+    left: 60.8vw;
+    font-size: 15px;
+    color: red;
+}
+
+.errmail {
+    position: absolute;
+    top: 50.3vh;
+    left: 60.8vw;
+    font-size: 15px;
+    color: red;
+}
+
+.errmobile {
+    position: absolute;
+    top: 58.2vh;
+    left: 60.8vw;
+    font-size: 15px;
+    color: red;
+}
+
+.errcheckbox {
+    position: absolute;
+    top: 65vh;
+    left: 62.8vw;
+    font-size: 12px;
+    color: red;
+}

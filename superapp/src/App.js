@@ -1,9 +1,11 @@
+import Leftjs from '../src/Components/Left/Leftjs';
+import Rightjs from '../src/Components/Right/Rightjs';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-      Hello World
+     <Leftjs></Leftjs>
+     <Rightjs></Rightjs>
     </div>
   );
 }
