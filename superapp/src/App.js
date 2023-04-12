@@ -1,12 +1,15 @@
-import Leftjs from '../src/Components/Left/Leftjs';
-import Rightjs from '../src/Components/Right/Rightjs';
+import Registerjs from './Components/Registerpage/Register/Registerjs';
+import Categoryjs from './Components/Categorypage/Categoryjs';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 function App() {
   return (
-    <div className="App">
-     <Leftjs></Leftjs>
-     <Rightjs></Rightjs>
-    </div>
+    
+    <Routes>
+      <Route exact path='/register' element={<Registerjs/>} />
+      <Route exact path='/select-cateogry' element={<Categoryjs/>}/>
+    </Routes>
+
   );
 }
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import img1 from '../../Assessts/Images/Landingpageimg1.svg'
 import '../Left/Leftcss.css'
 function Leftjs() {
   return (
