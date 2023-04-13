@@ -1,5 +1,5 @@
 import Registerjs from './Components/Registerpage/Register/Registerjs';
-import Categoryjs from './Components/Categorypage/Categoryjs';
+import Categoryjs from './Components/Categorypage/Category/Categoryjs';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 function App() {
@@ -7,7 +7,8 @@ function App() {
     
     <Routes>
       <Route exact path='/register' element={<Registerjs/>} />
-      <Route exact path='/select-cateogry' element={<Categoryjs/>}/>
+      <Route exact path='/select-category' element={<Categoryjs/>}/>
+      <Route exact path='/' element={<Registerjs/>}/>
     </Routes>
 
   );

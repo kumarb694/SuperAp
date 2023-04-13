@@ -114,7 +114,7 @@ function Rightjs() {
         setmailerr(false);
         setmobileerr(false);
         setcheckboxerr(false);
-        window.open('http://localhost:3000/select-cateogry', '_self');
+        window.open('http://localhost:3000/select-category', '_self');
       }
 
    
