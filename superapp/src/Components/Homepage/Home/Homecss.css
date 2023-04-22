@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.homepagegp {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepagep {
+    width: 84.028vw;
+    height: 81.379vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.homepageleftpart {
+    width: 61.4325%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepagerightpart {
+    width: 38.5675%;
+    height: 100%;
+}
+
+.personinfo {
+    width: 100%;
+    height: 61.7426%;
+    background-color: #5746EA;
+    border-radius: calc(0.967vw + 1.496vh);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personphoto {
+    height: 100%;
+    width: 30.258%;
+    /* background-color: aliceblue; */
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.personimage {
+    height: 42vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.persondetails {
+    height: 100%;
+    width: 63.23%;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.formdetails {
+    height: 44.2%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.formdetailsinside {
+    height: 66.67%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.storedname,
+.storedmail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 1.5rem; */
+    font-size: 1.39vw;
+    /* line-height: 2rem; */
+    line-height: 2.865vh;
+    /* or 38px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+/* 4.5084rem */
+.storedusername {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 3rem; */
+    font-size: 2.78vw;
+    /* line-height: 3rem; */
+    line-height: 6vh;
+    /* or 48px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.categorydetails {
+    height: 45%;
+    width: 75%;
+    /* background-color: beige; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.storedcategory {
+    width: 30%;
+    height: 15%;
+    background: #9F94FF;
+    border-radius: calc(1.069vw + 1.654vh);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 1.5rem; */
+    font-size: 1.39vw;
+    line-height: 1.875rem;
+    /* or 30px */
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+
+
+}
+
+.weather {
+    width: 100%;
+    height: 34.26%;
+    background-color: aquamarine;
+}

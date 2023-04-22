@@ -1,14 +1,14 @@
 import React from 'react'
 import './Categorycss.css'
-import c1img from '../../../Assessts/Cards/c1img.svg'
-import c2img from '../../../Assessts/Cards/c2img.svg'
-import c3img from '../../../Assessts/Cards/c3img.svg'
-import c4img from '../../../Assessts/Cards/c4img.svg'
-import c5img from '../../../Assessts/Cards/c5img.svg'
-import c6img from '../../../Assessts/Cards/c6img.svg'
-import c7img from '../../../Assessts/Cards/c7img.svg'
-import c8img from '../../../Assessts/Cards/c8img.svg'
-import c9img from '../../../Assessts/Cards/c9img.svg'
+import c1img from '../../../Assessts/Images/Categorypageimages/Cards/c1img.svg'
+import c2img from '../../../Assessts/Images/Categorypageimages/Cards/c2img.svg'
+import c3img from '../../../Assessts/Images/Categorypageimages/Cards/c3img.svg'
+import c4img from '../../../Assessts/Images/Categorypageimages/Cards/c4img.svg'
+import c5img from '../../../Assessts/Images/Categorypageimages/Cards/c5img.svg'
+import c6img from '../../../Assessts/Images/Categorypageimages/Cards/c6img.svg'
+import c7img from '../../../Assessts/Images/Categorypageimages/Cards/c7img.svg'
+import c8img from '../../../Assessts/Images/Categorypageimages/Cards/c8img.svg'
+import c9img from '../../../Assessts/Images/Categorypageimages/Cards/c9img.svg'
 import { useRef } from 'react';
 let yourselection=[];
 
@@ -45,7 +45,7 @@ function Categoryjs() {
     {
       localStorage.setItem("selectcategories", yourselection);
       erroref.current.style.display='none';
-      window.open('http://localhost:3000/', '_self');
+      window.open('http://localhost:3000/homepage', '_self');
     }
   } 
  
